@@ -1,0 +1,21 @@
+{
+  "name": "eleven-miles/em-auto-updater",
+  "description": "A PHP Wordpress package using the WP CLI to streamline plugin and core updates",
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "wp-cli/wp-cli": "^2.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tim Redman",
+      "email": "tim.redman@elevenmiles.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ElevenMiles\\EmAutoUpdate\\": "src/"
+    }
+  }
+}
